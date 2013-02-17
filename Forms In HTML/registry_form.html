@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Registry Form</title>
+</head>
+
+<body>
+	<form action="#">
+		<table border="1" cellpadding="4">
+			<tfoot>
+				<tr>
+					<td colspan="4"><input type="submit" name="submit" value="Submit" /> <input type="reset" name="reset" value="Clear This Form" /></td>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td><label for="last_name">Last Name</label></td>
+					<td colspan="3"><input id="last_name"  name ="last_name" type="text" size="60" /></td>
+				</tr>
+				<tr>
+					<td><label for="first_name">First Name</label></td>
+					<td colspan="3"><input id="first_name" name="first_name" type="text" size="60" /></td>
+				</tr>
+				<tr>
+					<td ><label for="address">Address</label></td>
+					<td colspan="3"><textarea name="address" id="address" cols="40" rows="5"></textarea></td>
+				</tr>
+				<tr>
+					<td><label for="city">City</label></td>
+					<td><input id="city"  name="city" type="text" size="35" /></td>
+					<td><label for="state">State</label></td>
+					<td><input id="state" name="state" type="text" size="5" /></td>
+				</tr>
+				<tr>
+					<td><label for="zip">Zip/Postal Code</label></td>
+					<td colspan="3"><input id="zip" name="zip" type="text" size="13" /></td>
+				</tr>
+				<tr>
+					<td><label for="country">Country</label></td>
+					<td colspan="3">
+						<select name="countries" id="country" >
+							<option value="Bulgaria" selected="selected" >Bulgaria</option>
+							<option value="USA">USA</option>
+							<option value="Greece">Greece</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Phone (country code, area code, number)</td>
+					<td colspan="3">
+
+						<label for="country_code">(+</label>
+						<input type="text" id="country_code" name="phone" size="5" /> )
+
+						<label for="area_code">
+							<input type="text" id="area_code" name="phone" size="5" />
+						</label> -
+
+						<label for="number"></label>
+						<input type="text" id="number" name="phone" size="8" />
+
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="email">E-mail</label>
+					</td>
+					<td colspan="3">
+						<input  id="email" name="" type="text" />
+					</td>
+				</tr>
+				<tr>
+					<td>Birth date</td>
+					<td colspan="3">
+						<label for="month">Month</label>
+						<input  id="month" name="month" type="text" size="2" />
+
+						<label for="day">Day</label>
+						<input id="day" name="day" type="text" size="2" />
+
+						<label for="year">Year (4 digit)</label>
+						<input id="year" name="year" type="text" size="6" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="gender">Gender</label>
+					</td>
+					<td colspan="3">
+						<select name="gender" id="gender" >
+							<option value="Male" selected="selected">Male</option>
+							<option value="Female">Female</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Starting Date</td>
+					<td colspan="3">
+						<input id="spring_start" name="starting_date" value="spring_2006" type="radio" checked="checked" />
+						<label for="spring_start">Spring 2006</label>
+
+						<input id="summer_start" name="starting_date" value="summer_2006" type="radio" />
+						<label for="summer_start">Summer 2006</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="comments">Comments/Questions</label>
+					</td>
+
+					<td colspan="3">
+						<textarea name="comments_questions" id="comments" cols="40" rows="7">Please send me more information about the login</textarea>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>

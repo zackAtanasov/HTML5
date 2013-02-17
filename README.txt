@@ -1,0 +1,1 @@
+These are my homework project assigments from the HTML5 class I took in Telerik Software Academy.

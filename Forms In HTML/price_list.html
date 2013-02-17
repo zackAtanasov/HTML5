@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Price List</title>
+</head>
+<body>
+	<form action="#">
+		<table border="1" cellpadding="2" cellspacing="0">
+			<thead>
+				<tr>
+					<td colspan="6">Drag a doohickee here and drop it over that thingy for something, or the other...</td>
+				</tr>
+				<tr>
+					<td><label for="product_id">ProductID</label></td>
+					<td><label for="product_name">Product name</label></td>
+					<td><label for="unit_price">Unit price</label></td>
+					<td><label for="quantity_per_unit">Quantity per unit</label></td>
+					<td><label for="units_in_stock">Units in stock</label></td>
+					<td><label for="discontinued">Discontinued</label></td>
+				</tr>
+				<tr>
+					<td><input type="text" id="product_id" size="3" /></td>
+					<td><input type="text" id="product_name" /></td>
+					<td>
+						<input type="text" id="unit_price" />
+						<input type="image" src="filter.jpeg" width="22" height="21" alt="filter_button">
+					</td>
+					<td><input type="text" id="quantity_per_unit" /></td>
+					<td>
+						<input type="text" id="units_in_stock" />
+						<input type="image" src="filter.jpeg" width="22" height="21" alt="filter_button" />
+					</td>
+					<td>
+						<input type="checkbox" id="discontinued" />
+						<input type="image" src="filter.jpeg" width="22" height="21" alt="filter_button" />
+					</td>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<td colspan="6">
+						<input type="image" src="skip_backward.png" alt="skip backward button" width="18" />
+						<input type="image" src="previous.png" width="18" name="previous" alt="previous_button" />
+						<a href="1.html">1</a>
+						<a href="2.html">2</a>
+						<a href="3.html">3</a>
+						<a href="4.html">4</a>
+						<a href="5.html">5</a>
+						<a href="6.html">6</a>
+						<a href="7.html">7</a>
+						<a href="8.html">8</a>
+						<a href="9.html">9</a>
+						<a href="10.html">10</a>
+						<input type="image" src="next.png" width="18" name="next" alt="next_button" />
+						<input type="image" src="skip_forward.png" alt="skip forward button" width="18" />
+						<label for="page_size">Page size: </label>
+						<select name="page_size" id="page_size">
+							<option value="10">10</option>
+							<option value="20">20</option>
+							<option value="30">30</option>
+							<option value="40">40</option>
+						</select>
+					</td>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Chai</td>
+					<td>$18.00</td>
+					<td>17</td>
+					<td>10 boxes x 20 bags</td>
+					<td><input type="checkbox" name="discontinued" /></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Chang</td>
+					<td>$19.00</td>
+					<td>39</td>
+					<td>24 - 12 oz bottles</td>
+					<td><input type="checkbox" name="discontinued" /></td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Aniseed Syrup</td>
+					<td>$20.00</td>
+					<td>17</td>
+					<td>12 - 550 ml bottles</td>
+					<td><input type="checkbox" name="discontinued" /></td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Chef Anton's Cajun Seasoning</td>
+					<td>$22.00</td>
+					<td>32</td>
+					<td>46 - 6 oz jars</td>
+					<td><input type="checkbox" name="discontinued" /></td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Chef Anton's Gumbo Mix</td>
+					<td>$21.35</td>
+					<td>33</td>
+					<td>45 - 8 oz packets</td>
+					<td><input type="checkbox" name="discontinued" /></td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Grandma's Boysenberry Spread</td>
+					<td>$25.00</td>
+					<td>13</td>
+					<td>34 - 24 oz jars</td>
+					<td><input type="checkbox" name="discontinued" /></td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>Uncle Bob's Organic Dried Pears</td>
+					<td>$30.00</td>
+					<td>0</td>
+					<td>32 - 2 lb bags</td>
+					<td><input type="checkbox" name="discontinued" /></td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Northwoods Cranberry Sauce</td>
+					<td>$40.00</td>
+					<td>150</td>
+					<td>89 - 6 oz jars</td>
+					<td><input type="checkbox" name="discontinued" /></td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>Mishi Kobe Niku</td>
+					<td>$97.00</td>
+					<td>20</td>
+					<td> 1 - 10 lb bag</td>
+					<td><input type="checkbox" name="discontinued" /></td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>Ikura</td>
+					<td>$31.00</td>
+					<td>50</td>
+					<td>23 - 8 kg boxes</td>
+					<td><input type="checkbox" name="discontinued" /></td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>
